@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import App from './App';
-import Locations from './views/locations';
-import Reports from './views/reports';
-import registerServiceWorker from './registerServiceWorker';
+import App from './client/App';
+import Locations from './client/views/locations';
+import Reports from './client/views/reports';
+import registerServiceWorker from './client/registerServiceWorker';
 import '/home/madame/weather-app/node_modules/bootstrap/dist/css/bootstrap.min.css';
-import './index.css';
+import './client/index.css';
 
 
 

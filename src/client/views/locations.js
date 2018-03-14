@@ -2,7 +2,6 @@ import React from 'react';
 import { DataTable } from './table';
 import { Header } from './header';
 import { NavPanel } from './navpanel_react';
-import { select } from '../services/database-connector.js';
 
 class Locations extends React.Component {
 	render() {

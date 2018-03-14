@@ -13,6 +13,7 @@
     "reactstrap": "^5.0.0-beta"
   },
   "scripts": {
+    "server":"cd server && nodemon database-connector.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
